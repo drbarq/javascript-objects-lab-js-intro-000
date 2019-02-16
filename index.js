@@ -34,6 +34,3 @@ function deleteFromObjectByKey(object, key) {
   delete recipeMore[key];
   return recipeMore
 }
-
-
-
