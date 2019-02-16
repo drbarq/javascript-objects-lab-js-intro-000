@@ -33,6 +33,6 @@ function deleteFromObjectByKey(object, key) {
   var recipeMore = Object.assign({}, object);
   return recipeMore {
     delete object.key;
-    return recipeMore;
   }
+  return recipeMore;
 }
