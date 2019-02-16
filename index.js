@@ -16,9 +16,19 @@ function updateObjectWithKeyAndValue(object, key, value) {
    return Object.assign({}, object, {[key]:value});
 }
 
+
+function deleteFromObjectByKey(object, key) {
+   return Object.assign({}, object, {key});
+}
+
+
+/*
+
 function deleteFromObjectByKey(object, key) {
   var recipeMore = Object.assign({}, object); {
     delete object.key;
   }
   return recipeMore;
 }
+
+*/
