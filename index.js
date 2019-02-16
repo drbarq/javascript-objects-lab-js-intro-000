@@ -1,7 +1,7 @@
-var recipes = {"ingredient" : "amount"};
+var recipes = {"key" : "value"};
 
 
-function destructivelyUpdateObjectWithKeyAndValue(recipe, ingredient, amount) {
+function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
   recipes[ingredient] = "amount";
   return recipes;
 }
