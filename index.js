@@ -34,5 +34,4 @@ function deleteFromObjectByKey(object, key) {
   return recipeMore {
     delete object.key;
   }
-  return recipeMore;
 }
